@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "m84tPQpmnII=",
+  "success": true,
+  "projectFilePath": "C:\\Working\\_Teste\\Teste_SkopiaDigital\\SkopiaDigital\\src\\Skopia.Api\\Skopia.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Michel Geronazzo\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.10\\microsoft.aspnetcore.openapi.9.0.10.nupkg.sha512",
+    "C:\\Users\\Michel Geronazzo\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
