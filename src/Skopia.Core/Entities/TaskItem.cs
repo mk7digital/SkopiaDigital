@@ -1,26 +1,27 @@
-﻿using Skopia.Core.Enums;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Xml.Linq;
+﻿using System;
+using Skopia.Core.Enums;
 
 namespace Skopia.Core.Entities
 {
     public class TaskItem
     {
-        public Guid Id { get; private set; } = Guid.NewGuid();
-        public Guid ProjectId { get; set; }
+        // construtor padrão (permite object initializer)
+        public TaskItem() { }
+
+        // construtor compatível com chamadas que passam Priority
+        public TaskItem(Priority priority)
+        {
+            Priority = priority;
+        }
+
+        public Guid Id { get; set; } = Guid.NewGuid();
         public string Title { get; set; } = null!;
         public string? Description { get; set; }
+        public TaskState Status { get; set; } = TaskState.Pending;
+        public Priority Priority { get; set; } = Priority.Normal;
+        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
         public DateTime? DueDate { get; set; }
-        public Priority Priority { get; private set; }
-        public TaskStatus Status { get; set; } = TaskStatus.Pending;
-        public ICollection<Comment> Comments { get; set; } = new List<Comment>();
-        public ICollection<TaskHistory> History { get; set; } = new List<TaskHistory>();
-
-        public TaskItem(Priority priority) { Priority = priority; }
+        public Guid ProjectId { get; set; }
     }
-
 }
+

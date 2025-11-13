@@ -1,29 +1,33 @@
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.Hosting;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// serviços MVC
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
+if (app.Environment.IsDevelopment())
+{
+    app.UseDeveloperExceptionPage();
+}
+else
 {
     app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 
-app.UseHttpsRedirection();
+// Serve arquivos estáticos da pasta wwwroot (css, js, images)
+app.UseDefaultFiles();   // opcional: ativa index.html se existir em wwwroot
+app.UseStaticFiles();    // necessário para servir arquivos estáticos
+
+// rota MVC padrão
 app.UseRouting();
-
 app.UseAuthorization();
-
-app.MapStaticAssets();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}")
-    .WithStaticAssets();
-
+    pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();

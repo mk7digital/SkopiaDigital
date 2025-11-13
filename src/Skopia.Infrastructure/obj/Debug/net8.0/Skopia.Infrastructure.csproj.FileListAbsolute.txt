@@ -1,0 +1,17 @@
+C:\Working\_Teste\Teste_SkopiaDigital\SkopiaDigital\src\Skopia.Infrastructure\obj\Debug\net8.0\Skopia.Infrastructure.csproj.AssemblyReference.cache
+C:\Working\_Teste\Teste_SkopiaDigital\SkopiaDigital\src\Skopia.Infrastructure\obj\Debug\net8.0\Skopia.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Working\_Teste\Teste_SkopiaDigital\SkopiaDigital\src\Skopia.Infrastructure\obj\Debug\net8.0\Skopia.Infrastructure.AssemblyInfoInputs.cache
+C:\Working\_Teste\Teste_SkopiaDigital\SkopiaDigital\src\Skopia.Infrastructure\obj\Debug\net8.0\Skopia.Infrastructure.AssemblyInfo.cs
+C:\Working\_Teste\Teste_SkopiaDigital\SkopiaDigital\src\Skopia.Infrastructure\obj\Debug\net8.0\Skopia.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Working\_Teste\Teste_SkopiaDigital\SkopiaDigital\src\Skopia.Infrastructure\bin\Debug\net8.0\Skopia.Infrastructure.deps.json
+C:\Working\_Teste\Teste_SkopiaDigital\SkopiaDigital\src\Skopia.Infrastructure\bin\Debug\net8.0\Skopia.Infrastructure.runtimeconfig.json
+C:\Working\_Teste\Teste_SkopiaDigital\SkopiaDigital\src\Skopia.Infrastructure\bin\Debug\net8.0\Skopia.Infrastructure.dll
+C:\Working\_Teste\Teste_SkopiaDigital\SkopiaDigital\src\Skopia.Infrastructure\bin\Debug\net8.0\Skopia.Infrastructure.pdb
+C:\Working\_Teste\Teste_SkopiaDigital\SkopiaDigital\src\Skopia.Infrastructure\bin\Debug\net8.0\Skopia.Core.dll
+C:\Working\_Teste\Teste_SkopiaDigital\SkopiaDigital\src\Skopia.Infrastructure\bin\Debug\net8.0\Skopia.Core.pdb
+C:\Working\_Teste\Teste_SkopiaDigital\SkopiaDigital\src\Skopia.Infrastructure\obj\Debug\net8.0\Skopia.I.C59A8FBD.Up2Date
+C:\Working\_Teste\Teste_SkopiaDigital\SkopiaDigital\src\Skopia.Infrastructure\obj\Debug\net8.0\Skopia.Infrastructure.dll
+C:\Working\_Teste\Teste_SkopiaDigital\SkopiaDigital\src\Skopia.Infrastructure\obj\Debug\net8.0\refint\Skopia.Infrastructure.dll
+C:\Working\_Teste\Teste_SkopiaDigital\SkopiaDigital\src\Skopia.Infrastructure\obj\Debug\net8.0\Skopia.Infrastructure.pdb
+C:\Working\_Teste\Teste_SkopiaDigital\SkopiaDigital\src\Skopia.Infrastructure\obj\Debug\net8.0\Skopia.Infrastructure.genruntimeconfig.cache
+C:\Working\_Teste\Teste_SkopiaDigital\SkopiaDigital\src\Skopia.Infrastructure\obj\Debug\net8.0\ref\Skopia.Infrastructure.dll

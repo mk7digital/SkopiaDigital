@@ -1,0 +1,4 @@
+C:\Working\_Teste\Teste_SkopiaDigital\SkopiaDigital\src\Skopia.Core\obj\Debug\net9.0\Skopia.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Working\_Teste\Teste_SkopiaDigital\SkopiaDigital\src\Skopia.Core\obj\Debug\net9.0\Skopia.Core.AssemblyInfoInputs.cache
+C:\Working\_Teste\Teste_SkopiaDigital\SkopiaDigital\src\Skopia.Core\obj\Debug\net9.0\Skopia.Core.AssemblyInfo.cs
+C:\Working\_Teste\Teste_SkopiaDigital\SkopiaDigital\src\Skopia.Core\obj\Debug\net9.0\Skopia.Core.csproj.CoreCompileInputs.cache

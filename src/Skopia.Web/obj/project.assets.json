@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {}
+    "net8.0": {
+      "Skopia.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Skopia.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Skopia.Core.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Skopia.Core/1.0.0": {
+      "type": "project",
+      "path": "../Skopia.Core/Skopia.Core.csproj",
+      "msbuildProject": "../Skopia.Core/Skopia.Core.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net9.0": []
+    "net8.0": [
+      "Skopia.Core >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Michel Geronazzo\\.nuget\\packages\\": {},
@@ -14,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Working\\_Teste\\Teste_SkopiaDigital\\SkopiaDigital\\src\\Skpia.Web\\Skpia.Web.csproj",
-      "projectName": "Skpia.Web",
-      "projectPath": "C:\\Working\\_Teste\\Teste_SkopiaDigital\\SkopiaDigital\\src\\Skpia.Web\\Skpia.Web.csproj",
+      "projectUniqueName": "C:\\Working\\_Teste\\Teste_SkopiaDigital\\SkopiaDigital\\src\\Skopia.Web\\Skopia.Web.csproj",
+      "projectName": "Skopia.Web",
+      "projectPath": "C:\\Working\\_Teste\\Teste_SkopiaDigital\\SkopiaDigital\\src\\Skopia.Web\\Skopia.Web.csproj",
       "packagesPath": "C:\\Users\\Michel Geronazzo\\.nuget\\packages\\",
-      "outputPath": "C:\\Working\\_Teste\\Teste_SkopiaDigital\\SkopiaDigital\\src\\Skpia.Web\\obj\\",
+      "outputPath": "C:\\Working\\_Teste\\Teste_SkopiaDigital\\SkopiaDigital\\src\\Skopia.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -29,7 +48,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net9.0"
+        "net8.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -37,9 +56,13 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
-          "projectReferences": {}
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Working\\_Teste\\Teste_SkopiaDigital\\SkopiaDigital\\src\\Skopia.Core\\Skopia.Core.csproj": {
+              "projectPath": "C:\\Working\\_Teste\\Teste_SkopiaDigital\\SkopiaDigital\\src\\Skopia.Core\\Skopia.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -55,8 +78,8 @@
       "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
-      "net9.0": {
-        "targetAlias": "net9.0",
+      "net8.0": {
+        "targetAlias": "net8.0",
         "imports": [
           "net461",
           "net462",

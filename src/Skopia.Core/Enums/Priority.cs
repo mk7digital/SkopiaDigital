@@ -6,5 +6,5 @@ using System.Threading.Tasks;
 
 namespace Skopia.Core.Enums
 {
-    public enum Priority { Low = 0, Medium = 1, High = 2 }
+    public enum Priority { Baixa = 0, Normal = 1, Alta = 2 }
 }

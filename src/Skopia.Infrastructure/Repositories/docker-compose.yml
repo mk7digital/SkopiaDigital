@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+  mongo:
+    image: mongo:6
+    container_name: skopia-mongo-dev
+    ports:
+      - "27017:27017"
+    environment:
+      - MONGO_INITDB_DATABASE=skopiadb
+    volumes:
+      - skopia-mongo-data:/data/db
+
+volumes:
+  skopia-mongo-data:

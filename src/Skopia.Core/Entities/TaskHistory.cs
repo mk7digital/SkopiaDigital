@@ -6,6 +6,13 @@ using System.Threading.Tasks;
 
 namespace Skopia.Core.Entities
 {
-    public class TaskHistory { public Guid Id { get; private set; } = Guid.NewGuid(); public Guid TaskId { get; set; } public Guid ActorId { get; set; } public string FieldChanged { get; set; } = null!; public string? OldValue { get; set; } public string? NewValue { get; set; } public DateTime ChangedAt { get; set; } = DateTime.UtcNow; }
-
+    public class TaskHistory { 
+        public Guid Id { get; private set; } = Guid.NewGuid(); 
+        public Guid TaskId { get; set; } 
+        public Guid ActorId { get; set; } 
+        public string FieldChanged { get; set; } = null!; 
+        public string? OldValue { get; set; } 
+        public string? NewValue { get; set; } 
+        public DateTime ChangedAt { get; set; } = DateTime.UtcNow; 
+    }
 }
